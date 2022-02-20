@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local("Poppins-Regular"), url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: local("Poppins-Bold"), url(./assets/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: local("Poppins-SemiBold"), url(./assets/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Poppins-Light";
+    src: local("Poppins-Light"), url(./assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins-SemiBold';
+}
+p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins-Light';   
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
