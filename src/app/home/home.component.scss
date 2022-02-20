@@ -7,6 +7,7 @@ $btn-text-color: #5f9f8a;
 header {
     height: 100vh;
     position: relative;
+    background-image: linear-gradient(190deg, #fff, #fff, #fff, #fff, #FFF8D6);
     .landing_header_div{
         padding-top: 3rem;
         img{
@@ -149,13 +150,13 @@ main{
             width: 50rem;
             background-color: #3c484c;
             bottom: 100px;
-            right: 5%;
-            
+            right: 0%;
+            bottom: 11%;            
         }
     }
 
     .second_section{
-
+        background-image: linear-gradient(115deg, #fff, #fff, #fff, #fff, #cbffee);
         .card{
             box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
             border: none !important;
@@ -191,6 +192,8 @@ main{
     }
 
     .third_section{
+        background-image: linear-gradient(45deg, #ffd8da, #fff, #fff, #fff, #fff, #cbffee);
+
         h3{
             font-size: 3.5vw;
             padding-top: 1rem;
@@ -254,7 +257,7 @@ main{
     }
 
     .fourth_section{
-        background: url(../../assets/images/chart_iphones-removebg-preview.png);
+        background: url(../../assets/images/chart_iphones-removebg-preview.png),linear-gradient(120deg, #ffd8da, #fff, #fff, #fff, #fff);
         background-size: contain;
         background-color: #fff;
         height: 35vw;
