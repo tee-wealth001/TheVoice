@@ -1,9 +1,8 @@
-// $primary-color: #25e3b7;
 $primary-color: #43e2ae;
 $btn-bg-color: #d8f9ef;
 $btn-text-color: #5f9f8a;
-// $footer-color: 
 
+///////////////////////HEADER//////////////////////
 header {
     height: 100vh;
     position: relative;
@@ -111,7 +110,9 @@ header {
     }
     
 }
+///////////////////////HEADER//////////////////////
 
+///////////////////////MAIN//////////////////////
 main{
 
     .link_placeholder{
@@ -251,10 +252,8 @@ main{
             transform: rotate(70deg);
             left: 45%;
             top: 45%;
-            opacity: 0.2;
-            
+            opacity: 0.2;            
         }
-
     }
 
     .fourth_section{
@@ -291,7 +290,7 @@ main{
         height: 35vh; 
         position:relative;
         .text_row{
-            background-image: url(../../assets/images/hands_on_laptop.png), linear-gradient(to right, #353c48, #375255); /* W3C */
+            background-image: url(../../assets/images/hands_on_laptop.png), linear-gradient(to right, #353c48, #375255);
             background-repeat: no-repeat;
             background-size: contain;
             background-position: left bottom;
@@ -370,23 +369,24 @@ main{
         }
 
     }
-
-
-
 }
+///////////////////////MAIN//////////////////////
 
+
+///////////////////////FOOTER//////////////////////
 footer{
     background-image: linear-gradient(to right, #151b27, #1f4c49);
     .copy{
         margin-right: 4vw;
         color: #fff !important;
-    }
-        
+    }        
 }
+///////////////////////FOOTER//////////////////////
 
 
 
-// UTILITY CSS
+
+///////////////////////UTILITY CSS//////////////////////
 .p-7{
     padding: 8rem;
 }
@@ -422,8 +422,6 @@ footer{
     transform: translateX(0);
     opacity: 1;
   }
-//////
-
   .circle-wrap {
     width: 150px;
     height: 150px;
@@ -432,8 +430,7 @@ footer{
     background: #d9d7da;
     border-radius: 50%;
     margin-right: 1rem;
-  }
-  
+  }  
   .circle-wrap .circle .mask,
   .circle-wrap .circle .fill-1,
   .circle-wrap .circle .fill-2,
@@ -442,22 +439,18 @@ footer{
     height: 150px;
     position: absolute;
     border-radius: 50%;
-  }
-  
+  }  
   .circle-wrap .circle .mask {
     clip: rect(0px, 150px, 150px, 75px);
-  }
-  
+  }  
   .circle-wrap .inside-circle {
     width: 124px;
     height: 124px;
     border-radius: 50%;
     background: #fff;
-    // line-height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    // text-align: center;
     margin-top: 13px;
     margin-left: 13px;
     color: #000;
@@ -468,18 +461,15 @@ footer{
   }
   
   /* color animation */
-  
   .mask .fill-1 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #ec0c0c;
-  }
-  
+  }  
   .mask.full-1,
   .circle .fill-1 {
     animation: fill-1 ease-in-out 3s;
     transform: rotate(153deg);
-  }
-  
+  }  
   @keyframes fill-1 {
     0% {
       transform: rotate(0deg);
@@ -487,21 +477,17 @@ footer{
     100% {
       transform: rotate(153deg);
     }
-  }
-  
-  /* 2nd bar */
-  
+  }  
+  /* 2nd bar */  
   .mask .fill-2 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: rgb(0, 255, 55);
-  }
-  
+  }  
   .mask.full-2,
   .circle .fill-2 {
     animation: fill-2 ease-in-out 3s;
     transform: rotate(117deg);
-  }
-  
+  }  
   @keyframes fill-2{
     0% {
       transform: rotate(0deg);
@@ -509,20 +495,17 @@ footer{
     100% {
       transform: rotate(117deg);
     }
-  }
-  
+  }  
   /* 3rd progress bar */
   .mask .fill-3 {
     clip: rect(0px, 75px, 150px, 0px);
     background-color: #23b9ea;
-  }
-  
+  }  
   .mask.full-3,
   .circle .fill-3 {
     animation: fill-3 ease-in-out 3s;
     transform: rotate(135deg);
-  }
-  
+  }  
   @keyframes fill-3{
     0% {
       transform: rotate(0deg);
@@ -531,7 +514,6 @@ footer{
       transform: rotate(135deg);
     }
   }
-
   .dot{
     height: 13px;
     width: 13px;
@@ -547,5 +529,7 @@ footer{
   .dot_3{
       background-color: green;
   }
+  ///////////////////////UTILITY CSS//////////////////////
+
 
  
